@@ -1,1 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf0;
+  color: #233c2b;
+}
 
+header, footer {
+  background-color: #233c2b;
+  color: #fffaf0;
+  padding: 16px 24px;
+}
+
+.navbar, .hero {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.navbar strong {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.nav-links a, .hero p {
+  color: #edf3e6;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+}
+
+.nav-links a, .button {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 80px 0;
+}
+
+.hero-text, .hero-photo {
+  flex-basis: 290px;
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-photo {
+  width: 100%;
+  min-width: 0;
+  height: 240px;
+  object-fit: cover;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #426546;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#menu {
+  text-align: center;
+  padding: 32px 20px 52px;
+}
+
+#menu h2 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  width: 175px;
+}
+
+.square {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border: 3px solid #426546;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#quote {
+  background-color: #edf3e6;
+  padding: 56px 24px;
+}
+
+#quote blockquote, #quote p {
+  max-width: 740px;
+  margin: auto;
+}
+
+#quote blockquote {
+  font-size: 32px;
+  font-style: italic;
+}
+
+#quote p {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+#visit {
+  max-width: 850px;
+  width: 82%;
+  margin: 48px auto;
+  box-sizing: border-box;
+  padding: 24px 32px;
+  border-radius: 8px;
+  background-color: #426546;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#visit h2, #visit p {
+  margin: 4px 0;
+}
+
+#visit .button {
+  border: 2px solid white;
+}
+
+footer {
+  text-align: center;
+}
